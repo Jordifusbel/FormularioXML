@@ -4,6 +4,7 @@
   <quest>
     <type>single</type>
     <Enun>¿Qué elemento es efectivo contra siniestro?</Enun>
+    <Answer>seleccionar</Answer>
     <Answer>Psíquico</Answer>
     <Answer correct = "true">Bicho</Answer>
     <Answer>Roca</Answer>
@@ -13,7 +14,8 @@
   <quest>
     <type>single</type>
     <Enun>¿Cuál de los siguientes es un pokémon inicial?</Enun>
-    <Answer correct = "true">Squirtle</Answer>
+    <Answer>seleccionar</Answer>
+    <Answer>Crobat</Answer>
     <Answer>Ralts</Answer>
     <Answer correct = "true">Torchic</Answer>
     <Answer>Eevee</Answer>
@@ -39,7 +41,7 @@
 
   <quest>
     <type>text</type>
-    <Enun>¿Cuál es este pokémon?</Enun>
+    <Enun>¿Cuál es la última evolución de la única linea pokémon fantasma de la primera generación?</Enun>
     <img>img/Gengar.jpg</img>
     <Answer>Gengar</Answer>
   </quest>
