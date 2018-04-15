@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+
+  <quest>
+    <type>single</type>
+    <Enun>¿Qué elemento es efectivo contra siniestro?</Enun>
+    <Answer>Psíquico</Answer>
+    <Answer correct = "true">Bicho</Answer>
+    <Answer>Roca</Answer>
+    <Answer>Veneno</Answer>
+  </quest>
+
+  <quest>
+    <type>single</type>
+    <Enun>¿Cuál de los siguientes es un pokémon inicial?</Enun>
+    <Answer correct = "true">Squirtle</Answer>
+    <Answer>Ralts</Answer>
+    <Answer correct = "true">Torchic</Answer>
+    <Answer>Eevee</Answer>
+  </quest>
+
+  <quest>
+    <type>mult</type>
+    <Enun>¿Qué objetos no se pueden comprar con pokedolares?</Enun>
+    <Answer>Revivir</Answer>
+    <Answer correct = "true">Caramelo raro</Answer>
+    <Answer correct = "true">MO01</Answer>
+    <Answer>Superpoción</Answer>
+  </quest>
+
+  <quest>
+    <type>mult</type>
+    <Enun>¿Qué bayas restauran PS?</Enun>
+    <Answer>Ispero</Answer>
+    <Answer correct = "true">Zidra</Answer>
+    <Answer>Tamate</Answer>
+    <Answer correct = "true">Aranja</Answer>
+  </quest>
+
+  <quest>
+    <type>text</type>
+    <Enun>¿Cuál es este pokémon?</Enun>
+    <img>img/Gengar.jpg</img>
+    <Answer>Gengar</Answer>
+  </quest>
+
+  <quest>
+    <type>text</type>
+    <Enun>¿Como se hace llamar el profesor pokémon de la región de Kanto?</Enun>
+    <Answer>Profesor Oak</Answer>
+  </quest>
+
+  <quest>
+    <type>range</type>
+    <Enun>¿Qué número ocupa Pikachu en la pokedex nacional de Kanto?</Enun>
+    <Answer>25</Answer>
+  </quest>
+
+  <quest>
+    <type>range</type>
+    <Enun>¿Qué número ocupa Mewtwo en la pokedex nacional de Kanto?</Enun>
+    <Answer>150</Answer>
+  </quest>
+
+  <quest>
+    <type>rad</type>
+    <Enun>¿Qué es mejor?</Enun>
+    <Answer>Yu-gi-oh</Answer>
+    <Answer>Beyblade</Answer>
+    <Answer>Digimon</Answer>
+    <Answer correct = "true">Pokémon</Answer>
+  </quest>
+
+  <quest>
+    <type>rad</type>
+    <Enun>¿Cuál es el movimiento más poderoso de tipo normal?</Enun>
+    <Answer>Hiperrayo</Answer>
+    <Answer correct = "true">Explosión</Answer>
+    <Answer>Doble Filo</Answer>
+    <Answer>Tecno shock</Answer>
+  </quest>
+
+</test>
