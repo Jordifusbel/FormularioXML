@@ -89,5 +89,23 @@ Body {
 	}
 	
 	#form{
-    margin-bottom: 5%;
-}
+    	margin-bottom: 5%;
+	}
+	
+	#puntuacion{
+    	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;	
+		color: #fff7cc;
+		width: 80%;
+    	overflow: auto;
+		margin-left: 2%;
+		margin-right: 2%;
+		font-size: 18px;
+		font-weight: 400;
+		background: black;
+		padding: 1.2em;
+		border-radius: 35px 0px 35px 0px;
+		-moz-border-radius: 35px 0px 35px 0px;
+		-webkit-border-radius: 35px 0px 35px 0px;
+		border: 2px black solid;
+		align-items: center;
+	}
