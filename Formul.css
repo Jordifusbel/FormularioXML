@@ -1,0 +1,93 @@
+Body {
+		background-image: url("img/linenTexture.jpg");	
+		position: relative;
+		height: 100%;
+		width: 100%;
+		font-family: Courier New;		
+    }
+	}
+	div {
+   		width: 280px;
+    	height: 125px;
+ 		border: 2px solid black;
+ 		margin: 10px;
+ 		padding: 30px;
+ 		text-align: center;
+		background-color: lightgray;
+	}
+	.desc{
+    	text-align: left;
+   		border-radius: 100px;
+    	padding: 20px;
+    	margin-top: 20px;
+    	align-items: center;
+    	display: block;
+	}
+	.mainMenu ul {
+		position: relative;
+		display: inline-flex;
+		margin-left: 2%;
+		margin-right: 2%;
+		padding: 0;
+		font-size: 25px;
+		list-style: none;
+	}
+	.mainMenu a {
+		display: block;
+		padding: 1em;
+		margin-left: 0%;
+		font-size: 25px;
+		background-color: grey;
+		text-decoration: none;
+		color: white;
+		border: 2px black solid;
+		position: relative;
+	}
+	.mainMenu a.active { /*Amb aquest afegit tenim un indicador de posició actual dins la web*/
+    	background-color: #fff7cc;
+    	color: black;
+		margin-left: 0%;
+	}
+	.mainMenu a:hover {
+		background-color: white;
+		color: black;
+	}
+	.mainMenu ul li ul {
+		display: none;
+		margin-left: 0%;
+	}
+	.mainMenu ul li a:hover + ul, .mainMenu ul li ul:hover {
+		display: block;
+		margin-left: 0%;
+		position: absolute;
+	}
+	.cajaCajas{
+		display: flex;
+		margin-top: 80px;
+	}
+	.imMen{
+		margin-left:2%;
+		width:8.5%;
+		height:8.5%;
+	}
+	.cajaForm { /*Caixa per contenir el formulari*/
+		font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;	
+		color: black;
+		width: 80%;
+    	overflow: auto;
+		margin-left: 2%;
+		margin-right: 2%;
+		font-size: 18px;
+		font-weight: 400;
+		background: #fff7cc;
+		padding: 1.2em;
+		border-radius: 35px 0px 35px 0px;
+		-moz-border-radius: 35px 0px 35px 0px;
+		-webkit-border-radius: 35px 0px 35px 0px;
+		border: 2px black solid;
+		align-items: center;
+	}
+	
+	#form{
+    margin-bottom: 5%;
+}
